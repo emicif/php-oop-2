@@ -3,12 +3,12 @@
 include_once __DIR__ . '/tipologia.php';
 
 
-class animalCare {
+class dogBed {
     public $tipo;
 }
-$animalCare = new animalCare();
-$animalCare->tipo = 'Anello massaggia gengive';
-echo('<p>Tipo: ' . $animalCare->tipo . '</p>');
+$dogBed = new dogBed();
+$dogBed->tipo = 'Cuccia grande';
+echo('<p>Tipo: ' . $dogBed->tipo . '</p>');
 
 
 /*
@@ -19,6 +19,5 @@ echo('</pre>');
 
 
 ?>
-
 
 <a href = "/php-oop-2/index.php"> Torna indietro </a>

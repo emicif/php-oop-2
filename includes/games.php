@@ -20,3 +20,5 @@ echo('</pre>');
 
 
 ?>
+
+<a href = "/php-oop-2/index.php"> Torna indietro </a>
